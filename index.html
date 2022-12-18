@@ -1,12 +1,184 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="assets/fonts/OpenSans/styles.css">
+	<link rel="stylesheet" href="assets/css/reset-min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media.css">
+	<title>CV - Bilonozhko Vlad</title>
 </head>
 <body>
-	<h1>Vlad Bilonozhko</h1>
+	<header class="header">
+		<div class="container">
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a href="#profile" class="main-nav__link">Profile</a></li>
+					<li class="main-nav__item"><a href="#contacts" class="main-nav__link">Contacts</a></li>
+					<li class="main-nav__item"><a href="#skills" class="main-nav__link">Skills</a></li>
+					<li class="main-nav__item"><a href="#information" class="main-nav__link">About Myself</a></li>
+					<li class="main-nav__item"><a href="#experience" class="main-nav__link">Experience</a></li>
+					<li class="main-nav__item"><a href="#courses" class="main-nav__link">Courses</a></li>
+					<li class="main-nav__item"><a href="#education" class="main-nav__link">Education</a></li>
+					<li class="main-nav__item"><a href="#code" class="main-nav__link">Code example</a></li>
+					<li class="main-nav__item"><a href="#languages" class="main-nav__link">Languages</a></li>
+				</ul>
+				<div class="main-nav__toggle nav-toggle">
+					<div class="nav-toggle__line nav-toggle__line--top"></div>
+					<div class="nav-toggle__line nav-toggle__line--middle"></div>
+					<div class="nav-toggle__line nav-toggle__line--bottom"></div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<section class="section section__profile profile" id="profile">
+				<div class="profile__main">
+					<h1 class="h1 profile__title">Vlad Bilonozhko</h1>
+					<p class="profile__descr">frontend developer</p>
+				</div>
+				<div class="profile__img">
+					<img src="assets/img/content/sticker.png" alt="">
+				</div>
+			</section>
+			<div class="main-content">
+				<aside class="main-content__sidebar">
+					<section class="section section__contacts contacts" id="contacts">
+						<h2 class="h2 contacts__title">Contacts</h2>
+						<ul class="contacts__list">
+							<li class="contacts__item">
+								<a href="mailto:vladokbln@gmail.com" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="assets/img/svg/sprite.svg#mail"></use>
+								</svg>
+								vladokbln@gmail.com</a>
+							</li>
+							<li class="contacts__item">
+								<a href="https://t.me/vla9oc" target="_blank" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="assets/img/svg/sprite.svg#telegram"></use>
+								</svg>
+								Telegram</a>
+							</li>
+							<li class="contacts__item">
+								<a href="https://www.facebook.com/vladokbln/" target="_blank" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="assets/img/svg/sprite.svg#facebook"></use>
+								</svg>
+								Facebook</a>
+							</li>
+							<li class="contacts__item">
+								<p class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="assets/img/svg/sprite.svg#discord"></use>
+								</svg>
+								Vlad Bilonozhko (@vladokbln)</p>
+							</li>
+						</ul>
+					</section>
+					<section class="section section__skills skills" id="skills">
+						<h2 class="h2 skills__title">Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">HTML5, CSS3</li>
+							<li class="skills__item">JS/JQ Basics</li>
+							<li class="skills__item">Php Basics</li>
+							<li class="skills__item">Gulp</li>
+							<li class="skills__item">Less/Scss/Pug</li>
+							<li class="skills__item">Bootstrap</li>
+						</ul>
+					</section>
+				</aside>
+				<div class="main-content__info">
+					<section class="section section-information information" id="information">
+						<h2 class="h2 information__title">Information</h2>
+						<div class="information__item">
+							<p class="h3 information__title">About Myself</p>
+							<div class="information__content">
+								<p>My name is Vlad and I have been doing layout since 2017.</p>
+								<p>I enjoy layout, constantly learning and developing in the field of front-end.</p>
+								<p>I like to listen to music, I also know how to play the drums.</p>
+								<p>I dream of buying a drum kit and playing it for my own pleasure when I want to relax after a hard day’s work.</p>
+							</div>
+						</div>
+						<div class="information__item" id="experience">
+							<p class="h3 information__title">Experience</p>
+							<div class="information__content">
+								<p><b>Apsite</b> - Web developer (mar 2020 - mar 2022)</p>
+								<ul>
+									<li>website markup</li>
+									<li>implementation of layout to CMS (opencart, wordpress, joomla, modx)</li>
+									<li>website redesign</li>
+								</ul>
+							</div>
+						</div>
+						<div class="information__item" id="courses">
+							<p class="h3 information__title">Courses & Projects</p>
+							<div class="information__content">
+								<ul>
+									<li><a href="https://seosan.org.ua/" target="_blank"><b>Seosan.org.ua</b></a> -  commercial work</li>
+									<li><a href="https://ru.hexlet.io/u/vla9oc/courses" target="_blank"><b>Hexlet</b></a> -  practical courses</li>
+									<li><a href="https://uitschool.com/js" target="_blank"><b>Ukrainian IT_School</b></a> - JavaScript (apr-jun 2018)</li>
+									<li><a href="https://vladokbln.github.io/test-it-school/" target="_blank"><b>SPALAH it-scholl</b></a> - HTML/CSS (apr-jul 2017)</li>
+								</ul>
+							</div>
+						</div>
+						<div class="information__item" id="education">
+							<p class="h3 information__title">Education</p>
+							<div class="information__content">
+								<p><b>Kharkiv Petro Vasylenko National Technical University of Agriculture</b></p>
+								<p>The Education and Research Institute of Business and Management</p>
+								<p><b>Specialization:</b> Management</p>
+								<p>Years: 2008 - 2014</p>
+							</div>
+						</div>
+						<div class="information__item" id="code">
+							<p class="h3 information__title">Code example</p>
+							<div class="information__content">
+								<p><b>Javascript:</b></p>
+								<p>Which color is the brightest?</p>
+<pre><code>function brightest(colors){
+  let colorCurrent = 0,
+  colorMax = 0;
+  for(let i = 0; i &lt; colors.length; i++) {
+    let r = parseInt(colors[i].slice(1,3), 16),
+        g = parseInt(colors[i].slice(3,5), 16),
+        b = parseInt(colors[i].slice(5,7), 16),
+        sumColor = Math.max(r,g,b); 
+    if (sumColor > colorMax) {
+      colorMax = sumColor;
+      colorCurrent = i;
+    }  
+  }
+  return colors[colorCurrent].toUpperCase();
+}</code></pre>
+							</div>
+						</div>
+						<div class="information__item" id="languages">
+							<p class="h3 information__title">Languages</p>
+							<div class="information__content">
+								<ul class="information__list">
+									<li><b>English</b> - A1</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__flex">
+				<a class="footer__github" href="https://github.com/vladokbln" target="_blank"><img src="assets/img/svg/github.svg" alt=""></a>
+				<p class="footer__copy">2022 ©</p>
+				<a class="footer__rs-school" href="https://rs.school/js/" target="_blank"><img src="assets/img/svg/rs_school.svg" alt=""></a>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/jquery-3.6.2.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
