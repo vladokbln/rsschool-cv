@@ -121,6 +121,14 @@ h2,
 	padding-left: 40px;
 }
 /* end skills */
+/* information */
+.information__content {
+	padding-left: 15px;
+}
+.information__item {
+	margin-bottom: 40px;
+}
+/* end information */
 /* footer */
 .footer {
 	padding: 30px 0;
