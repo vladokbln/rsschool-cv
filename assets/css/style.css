@@ -53,6 +53,14 @@ h2,
 	box-shadow: 0px 1px 10px -5px rgba(0,0,0,0.75);
 }
 /* header */
+/* main-nav */
+.main-nav__list {
+	display: flex;
+}
+.main-nav__link {
+	padding: 0 15px;
+}
+/* end main-nav*/
 /* profile */
 .profile {
 	display: flex;
