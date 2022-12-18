@@ -28,6 +28,23 @@ a:hover {
 .section {
 	padding: 40px 0;
 }
+h2, 
+.h2 {
+	margin-bottom: 20px;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+.h3 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.svg-icon {
+	width: 40px;
+	height: 40px;
+	fill: #000;
+}
 /* header */
 .header {
 	padding: 30px 0;
@@ -60,6 +77,50 @@ a:hover {
 	width: 300px;
 }
 /* end profile */
+/* main-content */
+.main-content {
+	display: flex;
+	margin: 0 -15px;
+}
+.main-content > * {
+	padding: 0 15px;
+}
+.main-content__sidebar {
+	width: 40%;
+}
+/* end main-content */
+/* contacts */
+.contacts__item {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-left: 50px;
+}
+.contacts__icon {
+	transition: .3s;
+}
+.contacts__icon {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	transition: .3s;
+}
+.contacts__link {
+	padding: 10px 0;
+	color: #000;
+	text-decoration: none;
+}
+.contacts__link:hover .contacts__icon {
+	fill: #608acd;
+}
+/* end contacts */
+/* skills */
+.skills .skills__list {
+	list-style-type: disc;
+	padding-left: 40px;
+}
+/* end skills */
 /* footer */
 .footer {
 	padding: 30px 0;
