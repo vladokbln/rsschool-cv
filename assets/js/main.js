@@ -3,6 +3,19 @@ jQuery(document).ready(function($){
 	$(window).scroll(function(){
 		scrollHeader();
 	});
+  $('.nav-toggle').click(function(){
+		$('.header').toggleClass('active-menu');
+	});
+	var header = $('.header'),
+	heightHeader = header.outerHeight();
+	$('.main-nav__link').on('click', function (event) {
+		event.preventDefault();
+		$('.header').removeClass('active-menu');
+		var id  = $(this).attr('href'),
+		top = $(id).offset().top - heightHeader;
+		$('body,html').animate({scrollTop: top}, 500);
+	});
+
 	function scrollHeader() {
 		var header = $('.header'),
 		heightHeader = header.outerHeight(),
