@@ -10,6 +10,7 @@ pre {
 	background: #131414;
 	color: #fff;
 	border-radius: 10px;
+	overflow: auto;
 }
 a {
 	color: inherit;
