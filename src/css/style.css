@@ -173,3 +173,19 @@ h2,
 	margin-bottom: 40px;
 }
 /* end information */
+/* footer */
+.footer {
+	padding: 30px 0;
+	-webkit-box-shadow: 0px -1px 10px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 10px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 10px -3px rgba(0,0,0,0.75);
+}
+.footer__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__rs-school {
+	width: 80px;
+}
+/* end footer */
