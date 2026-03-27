@@ -1,4 +1,57 @@
 /* css */
-html {
-	font-size: 16px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Open Sans',sans-serif;
+	line-height: 1.5;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.section {
+	padding: 40px 0;
+}
+/* profile */
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.profile__main {
+	width: 50%;
+}
+.profile__title {
+	font-size: 64px;
+}
+.profile__descr {
+	font-size: 32px;
+}
+.profile__img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.profile__img img {
+	width: 300px;
+}
+/* end profile */
