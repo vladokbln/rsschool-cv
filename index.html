@@ -18,6 +18,130 @@
 					<img src="src/img/content/sticker.png" alt="">
 				</div>
 			</section>
+						<div class="main-content">
+				<aside class="main-content__sidebar">
+					<section class="section section__contacts contacts" id="contacts">
+						<h2 class="h2 contacts__title">Contacts</h2>
+						<ul class="contacts__list">
+							<li class="contacts__item">
+								<a href="mailto:vladokbln@gmail.com" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="src/img/svg/sprite.svg#mail"></use>
+								</svg>
+								vladokbln@gmail.com</a>
+							</li>
+							<li class="contacts__item">
+								<a href="https://t.me/vla9_tg" target="_blank" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="src/img/svg/sprite.svg#telegram"></use>
+								</svg>
+								Telegram</a>
+							</li>
+							<li class="contacts__item">
+								<a href="https://www.facebook.com/vladokbln/" target="_blank" class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="src/img/svg/sprite.svg#facebook"></use>
+								</svg>
+								Facebook</a>
+							</li>
+							<li class="contacts__item">
+								<p class="contacts__link">
+								<svg class="contacts__icon svg-icon">
+									<use xlink:href="src/img/svg/sprite.svg#discord"></use>
+								</svg>
+								Vlad Bilonozhko (@vla9oc)</p>
+							</li>
+						</ul>
+					</section>
+					<section class="section section__skills skills">
+						<h2 class="h2 skills__title">Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">HTML5, CSS3</li>
+							<li class="skills__item">JS/JQ Basics</li>
+							<li class="skills__item">Php Basics</li>
+							<li class="skills__item">Gulp</li>
+							<li class="skills__item">Less/Scss/Pug</li>
+							<li class="skills__item">Bootstrap</li>
+						</ul>
+					</section>
+				</aside>
+				<div class="main-content__info">
+					<section class="section section-information information">
+						<h2 class="h2 information__title">Information</h2>
+						<div class="information__item">
+							<p class="h3 information__title">About Myself</p>
+							<div class="information__content">
+								<p>My name is Vlad and I have been doing layout since 2017.</p>
+								<p>I enjoy layout, constantly learning and developing in the field of front-end.</p>
+								<p>I like to listen to music, I also know how to play the drums.</p>
+								<p>I dream of buying a drum kit and playing it for my own pleasure when I want to relax after a hard day’s work.</p>
+							</div>
+						</div>
+						<div class="information__item">
+							<p class="h3 information__title">Experience</p>
+							<div class="information__content">
+								<p><b>Apsite</b> - Web developer (mar 2020 - mar 2022)</p>
+								<ul>
+									<li>website markup</li>
+									<li>implementation of layout to CMS (opencart, wordpress, joomla, modx)</li>
+									<li>website redesign</li>
+								</ul>
+							</div>
+						</div>
+						<div class="information__item">
+							<p class="h3 information__title">Courses & Projects</p>
+							<div class="information__content">
+								<ul>
+									<li><a href="https://ru.hexlet.io/u/vla9oc/courses" target="_blank"><b>Hexlet</b></a> -  practical courses</li>
+									<li><a href="https://uitschool.com/js" target="_blank"><b>Ukrainian IT_School</b></a> - JavaScript (apr-jun 2018)</li>
+									<li><a href="https://vladokbln.github.io/test-it-school/" target="_blank"><b>SPALAH it-scholl</b></a> - HTML/CSS (apr-jul 2017)</li>
+								</ul>
+							</div>
+						</div>
+						<div class="information__item">
+							<p class="h3 information__title">Education</p>
+							<div class="information__content">
+								<p><b>Kharkiv Petro Vasylenko National Technical University of Agriculture</b></p>
+								<p>The Education and Research Institute of Business and Management</p>
+								<p><b>Specialization:</b> Management</p>
+								<p>Years: 2008 - 2014</p>
+							</div>
+						</div>
+						<div class="information__item">
+							<p class="h3 information__title">Code example</p>
+							<div class="information__content">
+								<p><b>Javascript:</b></p>
+								<p>Which color is the brightest?</p>
+									<pre><code>function brightest(colors){
+  let colorCurrent = 0,
+  colorMax = 0;
+  for(let i = 0; i &lt; colors.length; i++) {
+    let r = parseInt(colors[i].slice(1,3), 16),
+        g = parseInt(colors[i].slice(3,5), 16),
+        b = parseInt(colors[i].slice(5,7), 16),
+        sumColor = Math.max(r,g,b); 
+    if (sumColor > colorMax) {
+      colorMax = sumColor;
+      colorCurrent = i;
+    }  
+  }
+  return colors[colorCurrent].toUpperCase();
+}
+</code></pre>
+							</div>
+						</div>
+						<div class="information__item">
+							<p class="h3 information__title">Languages</p>
+							<div class="information__content">
+								<ul class="information__list">
+									<li><b>English</b> - A1</li>
+									<li><b>Germany</b> - B2</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
 		</div>	
 	</main>
 </body>
