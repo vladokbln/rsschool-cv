@@ -7,9 +7,31 @@
 	<title>CV - Vlad Bilonozhko</title>
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a href="#profile" class="main-nav__link">Profile</a></li>
+					<li class="main-nav__item"><a href="#contacts" class="main-nav__link">Contacts</a></li>
+					<li class="main-nav__item"><a href="#skills" class="main-nav__link">Skills</a></li>
+					<li class="main-nav__item"><a href="#information" class="main-nav__link">About Myself</a></li>
+					<li class="main-nav__item"><a href="#experience" class="main-nav__link">Experience</a></li>
+					<li class="main-nav__item"><a href="#courses" class="main-nav__link">Courses</a></li>
+					<li class="main-nav__item"><a href="#education" class="main-nav__link">Education</a></li>
+					<li class="main-nav__item"><a href="#code" class="main-nav__link">Code example</a></li>
+					<li class="main-nav__item"><a href="#languages" class="main-nav__link">Languages</a></li>
+				</ul>
+				<div class="main-nav__toggle nav-toggle">
+					<div class="nav-toggle__line nav-toggle__line--top"></div>
+					<div class="nav-toggle__line nav-toggle__line--middle"></div>
+					<div class="nav-toggle__line nav-toggle__line--bottom"></div>
+				</div>
+			</nav>
+		</div>
+	</header>
 	<main class="main">
 		<div class="container">
-			<section class="section section__profile profile">
+			<section id="profile" class="section section__profile profile">
 				<div class="profile__main">
 					<h1 class="h1 profile__title">Vlad Bilonozhko</h1>
 					<p class="profile__descr">frontend developer</p>
@@ -18,9 +40,9 @@
 					<img src="src/img/content/sticker.png" alt="">
 				</div>
 			</section>
-						<div class="main-content">
+		  <div class="main-content">
 				<aside class="main-content__sidebar">
-					<section class="section section__contacts contacts" id="contacts">
+					<section id="contacts" class="section section__contacts contacts">
 						<h2 class="h2 contacts__title">Contacts</h2>
 						<ul class="contacts__list">
 							<li class="contacts__item">
@@ -53,7 +75,7 @@
 							</li>
 						</ul>
 					</section>
-					<section class="section section__skills skills">
+					<section id="skills" class="section section__skills skills">
 						<h2 class="h2 skills__title">Skills</h2>
 						<ul class="skills__list">
 							<li class="skills__item">HTML5, CSS3</li>
@@ -66,7 +88,7 @@
 					</section>
 				</aside>
 				<div class="main-content__info">
-					<section class="section section-information information">
+					<section id="information" class="section section-information information">
 						<h2 class="h2 information__title">Information</h2>
 						<div class="information__item">
 							<p class="h3 information__title">About Myself</p>
@@ -77,7 +99,7 @@
 								<p>I dream of buying a drum kit and playing it for my own pleasure when I want to relax after a hard day’s work.</p>
 							</div>
 						</div>
-						<div class="information__item">
+						<div id="experience" class="information__item">
 							<p class="h3 information__title">Experience</p>
 							<div class="information__content">
 								<p><b>Apsite</b> - Web developer (mar 2020 - mar 2022)</p>
@@ -88,7 +110,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="information__item">
+						<div id="courses" class="information__item">
 							<p class="h3 information__title">Courses & Projects</p>
 							<div class="information__content">
 								<ul>
@@ -98,7 +120,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="information__item">
+						<div id="education" class="information__item">
 							<p class="h3 information__title">Education</p>
 							<div class="information__content">
 								<p><b>Kharkiv Petro Vasylenko National Technical University of Agriculture</b></p>
@@ -107,7 +129,7 @@
 								<p>Years: 2008 - 2014</p>
 							</div>
 						</div>
-						<div class="information__item">
+						<div id="code" class="information__item">
 							<p class="h3 information__title">Code example</p>
 							<div class="information__content">
 								<p><b>Javascript:</b></p>
@@ -130,7 +152,7 @@
 </code></pre>
 							</div>
 						</div>
-						<div class="information__item">
+						<div id="languages" class="information__item">
 							<p class="h3 information__title">Languages</p>
 							<div class="information__content">
 								<ul class="information__list">
